@@ -19,6 +19,10 @@ Route::get('/', function () {
     return view('auth.login');
 });
 
-Route::get ('/dashboard',[DashboardController::class,'index'] );
 Route::post('/proseslogin',[AuthController::class, 'proseslogin']);
-Route::get('/proseslogout', [AuthController::class,'proseslogout']);
+
+
+Route::middleware(['auth:karyawan'])->group(function(){
+    Route::get ('/dashboard',[DashboardController::class,'index'] );
+    Route::get('/proseslogout', [AuthController::class,'proseslogout']);
+});
