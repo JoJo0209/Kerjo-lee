@@ -38,6 +38,14 @@
                 <h4>Tolong isi ya jink</h4>
             </div>
             <div class="section mt-1 mb-5">
+                @php
+                $messagewarning = Session::get('peringatan');
+                @endphp
+                @if (Session::get('peringatan'))
+                <div class="alert alert-outline-warning">
+                    {{$messagewarning}}
+                </div>
+                @endif
                 <form action="/proseslogin" method = "POST">
                     @csrf
                     <div class="form-group boxed">

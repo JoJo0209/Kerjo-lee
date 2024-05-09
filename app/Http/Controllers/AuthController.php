@@ -14,7 +14,7 @@ class AuthController extends Controller
         if(Auth::guard("karyawan")->attempt(["nik" => $request->nik, "password" => $request->password])){
             return redirect('/dashboard');
         } else {
-            echo "Gagal Login";
+            return redirect('/')->with(['peringatan'=> 'NIK atau Password Anda Salah']);
         }
     }
     public function proseslogout()
