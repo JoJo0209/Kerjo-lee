@@ -34,8 +34,8 @@
                 <img src="{{asset ('assets/img/Gambar1.png')}}" alt="image" class="form-image">
             </div>
             <div class="section mt-1">
-                <h1>Selamat Datang Budak Korporat</h1>
-                <h4>Tolong isi ya jink</h4>
+                <h1>Selamat Datang Dan Selamat Bekerja</h1>
+                <h4>Silakan Login Untuk Absen</h4>
             </div>
             <div class="section mt-1 mb-5">
                 @php
