@@ -35,9 +35,9 @@
        @yield('content')
     </div>
     <!-- * App Capsule -->
-    @include('layout\buttonnavigation')
+    @include('layout.buttonnavigation')
 
-    @include('layout\script')
+    @include('layout.script')
 
 
     

@@ -1,4 +1,4 @@
-@extends('layout\presensi')
+@extends('layout.presensi')
 @section('content')
 <div class="section" id="user-section">
     <div id="user-detail">
@@ -6,8 +6,8 @@
             <img src="assets/img/sample/avatar/avatar1.jpg" alt="avatar" class="imaged w64 rounded">
         </div>
         <div id="user-info">
-            <h2 id="user-name">Adam Abdi Al A'la</h2>
-            <span id="user-role">Head of IT</span>
+            <h2 id="user-name">Ricky</h2>
+            <span id="user-role">Vice President</span>
         </div>
     </div>
 </div>
@@ -301,7 +301,7 @@
                         <div class="item">
                             <img src="assets/img/sample/avatar/avatar1.jpg" alt="image" class="image">
                             <div class="in">
-                                <div>Edward Lindgren</div>
+                                <div>Wayne Joel Marcelinno</div>
                                 <span class="text-muted">Designer</span>
                             </div>
                         </div>
@@ -310,7 +310,7 @@
                         <div class="item">
                             <img src="assets/img/sample/avatar/avatar1.jpg" alt="image" class="image">
                             <div class="in">
-                                <div>Emelda Scandroot</div>
+                                <div>Adika Akbar Kurniawan</div>
                                 <span class="badge badge-primary">3</span>
                             </div>
                         </div>
@@ -319,7 +319,7 @@
                         <div class="item">
                             <img src="assets/img/sample/avatar/avatar1.jpg" alt="image" class="image">
                             <div class="in">
-                                <div>Henry Bove</div>
+                                <div>Arul Hidayat</div>
                             </div>
                         </div>
                     </li>
@@ -327,7 +327,7 @@
                         <div class="item">
                             <img src="assets/img/sample/avatar/avatar1.jpg" alt="image" class="image">
                             <div class="in">
-                                <div>Henry Bove</div>
+                                <div>Viona</div>
                             </div>
                         </div>
                     </li>
